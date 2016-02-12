@@ -37,6 +37,7 @@ Atest [5] This is a test.
 - **Bursting** [18] Utilizing a secondary environment to dynamically build instances on-demand when the primary environment is resource constrained.
 - **Cache Pruner** [10] Image cache has a configurable maximum size. If glance-cache-pruner is running, and the image_cache_max_size is exceeded, it will start running and try to remove images in a stalled or invalid state due to image cache writing failing to complete, or not being written properly. It is recommended that cron is used to fire off glance-cache-pruner at a regular interval.
 - **Ceilometer** [14] The project name for the Telemetry service, which is an integrated project that provides metering and measuring facilities for OpenStack.
+- **Cats** Little furry rat like things!  Yuck!  Pro-Dogs!
 - **Ceph** [12] The OpenStack storage system of choice because it is massively scalable, and therefore well suited for big data. Ceph uses a distributed storage system that consists of an object and block store, as well as a POSIX-compatible distributed file system.
 - **ceph mds** [12] *ceph-mds* The metadata server daemon for the Ceph distributed file system. One or more instances of ceph-mds collectively manage the file system namespace, coordinating access to the shared OSD cluster. Each ceph-mds daemon instance should have a unique name. The name is used to identify daemon instances in the ceph.conf.
 - **Chance Scheduler** [6] A random scheduling method used by Compute (nova) to choose an available host from the pool of hosts.
